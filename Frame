@@ -1,0 +1,13 @@
+import java.awt.*;
+class FrameExample extends Frame
+{
+    First()
+    {
+      setSize(300,300);
+      setVisible(true);
+    }
+    public static void main(String args[])
+    {
+      FrameExample f=new FrameExample();
+    }
+}
